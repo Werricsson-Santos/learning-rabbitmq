@@ -41,7 +41,7 @@ public class ProductDTO implements Serializable {
 
 	@Override
 	public String toString() {
-		return "ProductDTO [id=" + id + ", name=" + name + ", price=" + price + "]";
+		return "ProductDTO {id=" + id + ", name=" + name + ", price=" + price + "}";
 	}
 	
 	
