@@ -1,7 +1,6 @@
 package dev.com.werricsson.producer.services;
 
-import static dev.com.werricsson.producer.configs.RabbitMQConfig.EXG_NAME_MARKETPLACE;
-import static dev.com.werricsson.producer.configs.RabbitMQConfig.RK_PRODUCT_LOG;
+import static main.java.constants.RabbitMQConstants.*;
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Service;
